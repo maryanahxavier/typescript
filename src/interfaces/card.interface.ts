@@ -8,7 +8,7 @@ export interface ICard {
         topico:{
             id:number,
             item: string
-        }
+        } []
     }
 
 }

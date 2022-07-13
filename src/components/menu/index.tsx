@@ -1,4 +1,4 @@
-import React from "react";
+simport React from "react";
 import { FcReuse} from "react-icons/fc";
 import * as S from "./styles";
 import {Link} from "react-router-dom";
