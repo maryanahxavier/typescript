@@ -1,30 +1,30 @@
 import React from "react";
 import {Link} from "react-router-dom";
-import {Fakey} from "react-icons/fa";
-import {BsfillpersonFill} from "react-icons/bs";
+import {FaKey} from "react-icons/fa";
+import {BsFillPersonFill} from "react-icons/bs";
 import {MdEmail} from "react-icons/md";
 
 import * as S from "./styles";
-import {ButtonComponents} from "componenst";
+import {ButtonComponents} from "components";
 
 const Cadastrar = () => {
     return(
        <S.Section>
            <h1>Cadrastre-se</h1>
            <form action="cadastrar.html" method="post">
-               <label htmlFor="nome" >Nome< /label>
+               <label htmlFor="nome" >Nome</label>
                <div>
-                   <BsfillpersonFill />
-                   <input type="text" name="nome" id "nome" placeholder= "Nome" />
+                   <BsFillPersonFill />
+                   <input type="text" name="nome" id="nome" placeholder= "Nome" />
                </div>
                <label htmlFor="email">E-mail </label>
                <div>
                    <MdEmail />
                    <input type= "email" name= "email" id= "email" placeholder="E-mail" />
-                   <label> htmlFor = "senha" >Senha< label>
+                   <label htmlFor = "senha" >Senha</label>
                </div>
                <div>
-                   <Fakey />
+                   <FaKey />
                    <input type= "password" name="senha" id="senha" placeholder= "Senha" />
                </div>
                <p>
@@ -37,4 +37,4 @@ const Cadastrar = () => {
 };
 
 
-export default Cadrastar;
+export default Cadastrar;

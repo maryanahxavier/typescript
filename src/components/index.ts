@@ -1,5 +1,5 @@
 
-export {default as MenuComponents} from "./Menu"
-export {default as RodapeComponents} from "./Rodape"
-export {default as CardComponents } from "./Card"
-export {default as ButtonComponents} from "./Button"
+export {default as MenuComponents} from "./menu"
+export {default as RodapeComponents} from "./rodape"
+export {default as CardComponents } from "./card"
+export {default as ButtonComponents} from "./button"

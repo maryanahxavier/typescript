@@ -1,6 +1,6 @@
 import React from "react";
 import { BsFacebook, BsInstagram, BsLinkedin } from "react-icons/bs";
-import * as S from "./styles";
+import * as S from "./style";
 
 const Rodape = () => {
     return (
@@ -19,3 +19,4 @@ const Rodape = () => {
         </S.Rodape>
     )
 }
+export default Rodape

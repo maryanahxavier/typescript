@@ -1,10 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter } from "react-router-dom";
+import GlobalStyle from "styles/GlobalStyle";
+import Routes from "routes";
+import
 
 function App() {
-  return  <div>ola mundo</div>
-    
+  return (
+    <BrowserRouter>
+      <GlobalStyle />
+      <Routes />
+    </BrowserRouter>
+  );
 }
 
 export default App;
+

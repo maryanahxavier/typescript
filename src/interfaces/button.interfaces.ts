@@ -1,3 +1,3 @@
-export interface Ibutton {
+export interface IButton {
     children?: React.ReactNode
 }

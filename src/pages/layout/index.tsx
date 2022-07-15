@@ -1,16 +1,16 @@
-import { MenuComponent, RodapeComponent } from “components”;
-import React from “react”;
-import { Outlet } from “react-router-dom;
-import  * as S from “./styles”;
+import { MenuComponents, RodapeComponents } from "components";
+import React from "react";
+import { Outlet } from "react-router-dom";
+import  * as S from "./styles";
 
 const Layout = () => {
     return(
         <S.Layout>
-            <MenuComponent />
+            <MenuComponents />
                 <main>
                     <Outlet />
                 </main>
-                <RodapeComponent />
+                <RodapeComponents />
         </S.Layout>
     );
 };

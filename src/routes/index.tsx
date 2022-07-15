@@ -1,16 +1,16 @@
-import { Route, Route } from "react-router-dom";
-import {CadrastarPage,HomePage, LoginPage} from "pages";
+import { Route, Routes } from "react-router-dom";
+import { CadastrarPage, HomePage, LoginPage,LayoutPage} from "pages";
 
 const Rotas = () => {
     return (
-        <Route>
-            <Route element= {<LayoutPage  />}>
-                <Route path= "/" element ={<HomePage />} />
-                <Route path= "/ cadrastar" element ={<CadrastarPage />} />
-                <Route path= "/ login" element ={<LoginPage />} />
-                </Route>
+        <Routes>
+            <Route element={<LayoutPage />}>
+                <Route path="/" element={<HomePage />} />
+                <Route path="/cadastrar" element={<CadastrarPage />} />
+                <Route path="/login" element={<LoginPage />} />
+            </Route>
 
-                </Route>
+        </Routes>
     );
 };
 

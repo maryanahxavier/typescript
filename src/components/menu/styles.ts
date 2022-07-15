@@ -18,7 +18,7 @@ nav {
   display: flex;
   align-items: center;
   li{
-  }
+  
     margin: 0 1.5em;
     a {
       text-decoration: none;
@@ -26,4 +26,6 @@ nav {
       color: ${colors.primary};
 
     }
+  }
 }
+`
